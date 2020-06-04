@@ -48,9 +48,12 @@
         app:layout_constraintGuide_percent="0.5"
     />
 
-    <!--<fragment
+    <!--
+        SE ADICIONA UN FRAGMENT
+    -->
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment"
-        android:name=""
+        android:name="com.essa.curso.jetpack.lifecycle.ui.nombre.NombreFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -62,6 +65,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />-->
+        app:layout_constraintTop_toTopOf="parent"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
