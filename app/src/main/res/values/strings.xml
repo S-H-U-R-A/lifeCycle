@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lifeCycle</string>
+    <string name="title_activity_cronometro">CronometroActivity</string>
+    <string name="segundos">%d s</string>
+</resources>
